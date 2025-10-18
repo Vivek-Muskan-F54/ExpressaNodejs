@@ -13,7 +13,7 @@ app.use("/users/:id", (req, res) => {
 });
 
 app.use("/about", (req, res) => {
-  res.send("Hello, This is backend");
+  res.send("Hello, This is about page");
 });
 
 app.use("/contact", (req, res) => {
